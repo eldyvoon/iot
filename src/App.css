@@ -1,0 +1,133 @@
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.tabs button {
+  padding: 10px 20px;
+  border: 1px solid #d0d0d0;
+  background: #f0f0f0;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px 5px 0 0;
+  font-size: 14px;
+  transition: background 0.2s;
+}
+
+.tabs button:hover {
+  background: #e0e0e0;
+}
+
+.tabs button.active {
+  background: #007bff;
+  color: white;
+}
+
+.content {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  min-height: 300px;
+}
+
+section h2 {
+  margin-top: 0;
+  color: #444;
+}
+
+/* Running Clock Styles */
+label {
+  margin-right: 15px;
+}
+
+input[type="number"] {
+  width: 60px;
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-top: 10px;
+  border: 1px solid #d0d0d0;
+  background: #f5f5f5;
+  color: #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #e2e2e2;
+}
+
+h1[data-testid="running-clock"] {
+  font-size: 48px;
+  font-family: "Courier New", monospace;
+  color: #333;
+  margin: 20px 0;
+}
+
+/* Table Styles for IsCycle */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+tr:hover {
+  background: #fafafa;
+}
+
+/* UserList Styles */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+li:hover {
+  background: #f5f5f5;
+}
+
+.render-meta {
+  font-size: 12px;
+  color: #666;
+}
+
+.render-meta--spaced {
+  margin-bottom: 6px;
+}
